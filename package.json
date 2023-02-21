@@ -4,9 +4,9 @@
   "description": "My portfolio website",
   "main": "index.js",
   "scripts": {
-    "dev" : "next dev -H 0.0.0.0",
-    "prettier" : "prettier - write .",
-    "lint" : "next lint"
+    "dev": "next dev -H 0.0.0.0",
+    "prettier": "prettier - write .",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
