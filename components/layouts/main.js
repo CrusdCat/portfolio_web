@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
-//import NavBar from '../navbar'
-import { Box, Container } from '@chakra-ui/react'
+import NavBar from '../navbar'
+import { Box, Container, Flex } from '@chakra-ui/react'
 import Profile from './profile'
 //import Footer from '../footer'
 
@@ -16,10 +16,11 @@ const Main = ({ children, router }) => {
       </Head>
 
       {/* <NavBar path={router.asPath} /> */}
-      <Profile></Profile>
-      <Container maxW="container.md" pt={14}>
-        {children}
-      </Container>
+      
+        <Container>
+          {children}
+        </Container>
+      
     </Box>
   )
 }

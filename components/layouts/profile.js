@@ -20,7 +20,7 @@ const ProfileImage = chakra(Image, {
 })
 
 
-const Profile = ({ }) => {
+const Profile = ({router }) => {
   return (
     <motion.article
     initial="hidden"
@@ -42,7 +42,7 @@ const Profile = ({ }) => {
         <Box pt='3' display={{md:'flex'}}>
             <Box flexGrow={1}>
                 <Heading as="h2" variant="page-title">
-                    Jeon Min Hyeok
+                    MinHyeok Jeon
                 </Heading>
                 <p>Developer ( ROS / App & Web / ML)</p>
                 <p>Dept. of Computer Science</p>
